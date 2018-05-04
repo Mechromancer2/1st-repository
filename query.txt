@@ -1,0 +1,12 @@
+A.) select * from city where name= county;
+B.) select * from cabinet where PName= 'Nixon R M';
+C.) SELECT * FROM cabinet where end_year - start_year > 12;
+D.) SELECT * FROM election where won_lost='W'and PVote < 50
+E.) SELECT * FROM rankc where rank = 24 and Year=1940 or year=1950 or year=1960 ORDER BY year desc
+F.) select * from state where sname like'%i%i%i%';
+G.) select AVG(years) from president where party like 'democratic'
+H.) select AVG(end_year-start_year) from cabinet where cabpos ="Attorney General"
+I.) select * from state where year<=1888
+J.)select * from president  where Birth_Year between 1873 and 1910 and Born_In != "CA" and Born_In != "VA" and Born_In != "WA";
+or
+select * from president  where Born_In != "CA" and Born_In != "VA" and Born_In != "WA" and Birth_Year between 1873 and 1910
